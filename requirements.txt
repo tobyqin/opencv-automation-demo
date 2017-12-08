@@ -1,0 +1,9 @@
+opencv-python
+imutils
+numpy
+matplotlib
+scikit-image
+
+# test framework
+Appium-Python-Client
+pytest
