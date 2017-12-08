@@ -223,9 +223,15 @@ def compare_diff(path1, path2):
 
 
 if __name__ == '__main__':
-    a, b, score = compare_diff('images/loginbuttonchanged.png', 'images/loginbuttondoublesize.png')
 
+    a, b, score = compare_diff('../images/loginbuttonchanged.png', '../images/loginbuttondoublesize.png')
+
+    # check the score
+    print(score)
+
+    # show the grey scale image
     plt.imshow(a)
     plt.show()
+
     plt.imshow(b)
     plt.show()
