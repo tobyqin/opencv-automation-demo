@@ -8,3 +8,4 @@ scikit-image
 # test framework
 Appium-Python-Client
 pytest
+aircv
